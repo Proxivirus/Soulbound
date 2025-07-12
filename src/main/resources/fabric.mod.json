@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "id": "soulbound",
+    "version": "${version}",
+    "name": "Soulbound",
+    "description": "Enchantment designed to keep your precious items and gear in your inventory after you die",
+    "authors": [
+        "Proxi"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/soulbound-enchant",
+        "issues": "https://github.com/Proxivirus/Soulbound/issues",
+        "sources": "https://github.com/Proxivirus/Soulbound"
+    },
+    "license": "MIT",
+    "icon": "assets/soulbound/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.proxi.soulbound.SoulBound"
+        ],
+        "modmenu": [
+            "com.proxi.soulbound.ModMenuIntegration"
+        ],
+        "fabric-datagen": [
+            "com.proxi.soulbound.DataGen"
+        ]
+    },
+    "mixins": [
+        "soulbound.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "*",
+        "fabric": "*",
+        "java": ">=21",
+        "minecraft": [
+            "1.21.2", "1.21.3", "1.21.4"
+        ],
+        "cloth-config": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "Discord": "https://discord.gg/XndWauUMpQ",
+                "Modrinth": "https://modrinth.com/mod/soulbound-enchant"
+            }
+        }
+    }
+}

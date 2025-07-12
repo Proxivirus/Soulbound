@@ -1,0 +1,39 @@
+name: Bug Report
+description: Choose this if something is going wrong.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - proxivirus
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What's the issue?"
+    validations:
+      required: true
+  - type: dropdown
+    id: loader-version
+    attributes:
+      label: What loader are you using?
+      options:
+        - Fabric
+        - Neoforge (coming soon)
+    validations:
+      required: true
+  - type: dropdown
+    id: minecraft-version
+    attributes:
+      label: What Minecraft version are you playing on?
+      options:
+        - 1.21.2
+        - 1.21.3
+        - 1.21.4
+    validations:
+      required: true
+  - type: checkboxes
+    id: lastest-version
+    attributes:
+      label: Are you using the newest version of Soulbound available?
+      options:
+        - label: "Yes"
+        - label: "No"

@@ -1,0 +1,13 @@
+name: Feature Request
+description: Choose this if you'd like something to be added.
+title: "[Feature Request]: "
+labels: ["enhancement"]
+assignees:
+  - proxivirus
+body:
+  - type: textarea
+    id: addiont
+    attributes:
+      label: "What would you like to be added?"
+    validations:
+      required: true

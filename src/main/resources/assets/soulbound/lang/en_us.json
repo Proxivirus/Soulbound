@@ -1,0 +1,7 @@
+{
+  "enchantment.soulbound.soulbound": "SoulBound",
+  "enchantment.soulbound.soulbound.desc": "Items with this enchantment applied will stay in the players inventory upon death, at the cost of some durability",
+  "text.autoconfig.soulbound.option.allowBreakItem": "Should durability penalty be able to break items",
+  "text.autoconfig.soulbound.option.maxDamagePercent": "Maximum percentage of durability lost (0 to disable)",
+  "text.autoconfig.soulbound.title": "SoulBound"
+}
